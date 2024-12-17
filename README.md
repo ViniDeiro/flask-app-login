@@ -1,57 +1,70 @@
-Flask App - Sistema de Login
+# 📂 Flask App - Sistema de Login e Cadastro de Usuário
 
-Este é um simples projeto desenvolvido em Flask, focado na criação de um sistema de login, onde os usuários podem se registrar e autenticar-se. O projeto foi criado para aprimorar meu conhecimento em Python, Flask, SQLAlchemy e segurança de senhas.
+Bem-vindo ao meu repositório "Flask App - Sistema de Login"! 🚀  
+Este projeto representa uma parte do meu aprendizado em desenvolvimento back-end. Desenvolvi uma aplicação simples de login e cadastro utilizando Flask, uma framework que estou aprendendo para construir aplicações web robustas.
 
-Objetivo
+> **Objetivo**: Meu objetivo é aprimorar minhas habilidades como desenvolvedor back-end, focando em segurança, integração com banco de dados e autenticação de usuários.
 
-O principal objetivo desse repositório é compartilhar o meu aprendizado enquanto estou aprendendo a construir aplicações web com Flask, criando e manipulando usuários de forma segura utilizando técnicas como hashing de senhas. Além disso, quero demonstrar o conhecimento básico sobre CRUD (Create, Read, Update, Delete), que aprendi durante o desenvolvimento desse projeto.
+---
 
-Funcionalidades
+### 📝 Sobre Mim
 
-Cadastro de Usuário: Os usuários podem se registrar com um nome de usuário, e-mail e senha.
-Login de Usuário: Os usuários podem acessar a plataforma inserindo suas credenciais.
-Autenticação de Senha: Senhas são armazenadas de maneira segura, utilizando o algoritmo de hashing do werkzeug.
-Logout: O sistema oferece a opção de logout para finalizar a sessão.
-Tecnologias Utilizadas
+Sou um desenvolvedor back-end aspirante, com foco em Python e Flask. Tenho experiência prática no desenvolvimento de sistemas simples, com interação de banco de dados e autenticação segura.
 
-Flask: Framework web utilizado para desenvolvimento de aplicações web.
-SQLAlchemy: ORM (Object Relational Mapper) para interação com o banco de dados SQLite.
-Werkzeug: Biblioteca utilizada para o gerenciamento de senhas, com funções de hashing.
-SQLite: Banco de dados utilizado para armazenar informações dos usuários.
-Como Executar o Projeto
+Atualmente estou em busca de uma oportunidade de trabalho como desenvolvedor, onde posso aplicar meus conhecimentos de maneira prática e também continuar aprendendo com projetos mais complexos.
 
-Requisitos
+---
 
-Python 3.x instalado.
-Dependências do projeto, que podem ser instaladas com o comando:
+### 📁 **Projeto Atual** 
 
-pip install -r requirements.txt
+#### 1. **Sistema de Login e Cadastro de Usuário**  
+Este é um sistema básico com funções de cadastro, login e logout de usuários, onde a senha é devidamente protegida e os dados são armazenados no banco de dados SQLite.
 
-Passos
+---
 
-1. Clone o repositório:
+### ✅ **Funcionalidades**:
 
-git clone https://github.com/ViniDeiro/flask-app-login.git
+- **Cadastro de Usuário**: Permite a criação de contas com nome de usuário, e-mail e senha.
+- **Login de Usuário**: Usuários registrados podem acessar a plataforma através de autenticação simples.
+- **Autenticação de Senha**: As senhas são protegidas com hash, utilizando o **Werkzeug**.
+- **Logout**: O usuário pode sair do sistema de maneira segura, encerrando a sessão.
 
-2. Acesse a pasta do projeto:
+---
 
-cd flask-app-login
+### 🛠 **Tecnologias e Ferramentas Utilizadas**:
 
-3. Execute a aplicação:
+- **Linguagem de Programação**: Python 🐍
+- **Framework**: Flask ⚡
+- **Banco de Dados**: SQLite 📊
+- **Gestão de Senha Segura**: Werkzeug 🛡️
+- **Controle de Versionamento**: Git & GitHub 🧑‍💻
+- **Estilização**: HTML (sem estilização avançada) 💻
 
-python app.py
+---
 
-4. Acesse http://127.0.0.1:5000/ no seu navegador para ver o sistema em funcionamento.
+### 🌱 **Aprendizados**:
 
-Melhorias Futuras
+- Como criar aplicações web back-end utilizando o Flask.
+- Estruturação de banco de dados com SQLAlchemy e SQLite.
+- Implementação de segurança no armazenamento de senhas usando hashing com o Werkzeug.
+- Gerenciamento de sessões de usuários no Flask (login/logout).
 
-Implementar validação de e-mail (ex: enviar um link de verificação de e-mail).
-Criar uma página de perfil para os usuários.
-Implementar um sistema de recuperação de senha.
+---
 
+### 🚀 **Próximos Passos**:
 
-Conclusão
+- Melhorar a interface do usuário (UI) utilizando CSS.
+- Implementar validação de e-mail e envio de links de verificação.
+- Criar uma API RESTful para futuros projetos.
+- Adicionar funcionalidades de recuperação de senha.
 
-Este projeto é apenas o começo da minha jornada no desenvolvimento web, e me ajudou a aprender diversos conceitos importantes, como como criar uma aplicação web simples, trabalhar com autenticação de usuários e proteger as credenciais de forma segura.
+---
 
-Espero poder expandir esse projeto em breve, incluindo novas funcionalidades e melhorando o design da interface.
+### 📬 **Contato**:
+
+- **GitHub**: [github.com/ViniDeiro](https://github.com/ViniDeiro)
+- **E-mail**: vini_deiro@icloud.com
+- **WhatsApp**: (11)93155-0012
+
+Acompanhe meu progresso! Estou constantemente desenvolvendo novos projetos e buscando expandir meu portfólio para crescer na minha carreira como desenvolvedor back-end. 👨‍💻
+
