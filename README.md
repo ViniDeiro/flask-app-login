@@ -48,6 +48,8 @@ Melhorias Futuras
 Implementar validação de e-mail (ex: enviar um link de verificação de e-mail).
 Criar uma página de perfil para os usuários.
 Implementar um sistema de recuperação de senha.
+
+
 Conclusão
 
 Este projeto é apenas o começo da minha jornada no desenvolvimento web, e me ajudou a aprender diversos conceitos importantes, como como criar uma aplicação web simples, trabalhar com autenticação de usuários e proteger as credenciais de forma segura.
